@@ -114,3 +114,12 @@ Fixed parse issue.
 
 Version 1.36
 Fixed issue in processAndroidVersion() function. Thanks goes out to longomes for reporting this issue to me.
+
+Version 1.37
+Simplified an IF statement in the processAndroidVersion() function.
+
+Version 1.38
+Fixed multiple issues with Mac OS version detection by bringing in changes from a fork of my project. Thanks goes out to nickwilmsmeyer and his fork of the project at https://github.com/nickwilmsmeyer/User-Agent-Parser.
+
+Version 1.39
+Fixed an issue that caused errors under PHP v8.2. Thanks goes out to SaintPaddy for a fix via his GIT pull request.
